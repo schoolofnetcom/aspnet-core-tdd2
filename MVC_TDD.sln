@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{120C3EED-F86E-48F5-B0AB-F67222EA24A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE5AC10E-A9CF-4D95-BA3F-2C7B7575E8A9}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MVC_TDD", "src\MVC_TDD\MVC_TDD.xproj", "{B29C7716-ECD8-44FE-824F-7AD063210726}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MVC_TDD.Tests", "src\MVC_TDD.Tests\MVC_TDD.Tests.xproj", "{AA6D2247-7388-4B52-A41D-34CA1C72ECF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B29C7716-ECD8-44FE-824F-7AD063210726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29C7716-ECD8-44FE-824F-7AD063210726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29C7716-ECD8-44FE-824F-7AD063210726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29C7716-ECD8-44FE-824F-7AD063210726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA6D2247-7388-4B52-A41D-34CA1C72ECF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA6D2247-7388-4B52-A41D-34CA1C72ECF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA6D2247-7388-4B52-A41D-34CA1C72ECF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA6D2247-7388-4B52-A41D-34CA1C72ECF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B29C7716-ECD8-44FE-824F-7AD063210726} = {120C3EED-F86E-48F5-B0AB-F67222EA24A2}
+		{AA6D2247-7388-4B52-A41D-34CA1C72ECF8} = {120C3EED-F86E-48F5-B0AB-F67222EA24A2}
+	EndGlobalSection
+EndGlobal
